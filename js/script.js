@@ -1,0 +1,15 @@
+$(function(){
+  $('.open').click(function(){
+    $('.close').toggleClass('none');
+  });
+});
+$(function(){
+  $('.openU').click(function(){
+    $('.service').toggleClass('none');
+  });
+});
+$(function(){
+  $('.fa-bars').click(function(){
+    $('.submenu').toggleClass('none');
+  });
+});
